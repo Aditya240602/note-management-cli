@@ -25,27 +25,82 @@ The application also includes a web interface to view notes in the browser.
 - **JavaScript (ES6+)**
 - File System (`fs` module)
 - Command Line Interface (CLI)
-- Express.js (if used)
-- dotenv
+- **Express.js**
+- **dotenv**
+
+---
+
+## 📋 Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- npm (comes bundled with Node.js)
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/Aditya240602/note-management-cli.git
+cd note-management-cli
+npm install
+```
 
 ---
 
 ## ▶️ Usage
-- node index.js <command>
-## 📌 Available Commands
-## Create a New Note
-- node index.js new "My first note"
-##  View All Notes
-  node index.js all
-  Find Notes
-  node index.js find "keyword"
-  Remove Note by ID
-  node index.js remove 1
-  Launch Web Interface
-  node index.js web
-  Delete All Notes
-  node index.js clean
 
-git clone https://github.com/Aditya240602/note-management-cli.git
-cd note-management-cli
-npm install
+```bash
+node index.js <command>
+```
+
+---
+
+## 📌 Available Commands
+
+### ➕ Create a New Note
+
+```bash
+node index.js new "My first note"
+```
+
+### 📋 View All Notes
+
+```bash
+node index.js all
+```
+
+### 🔍 Find Notes by Keyword
+
+```bash
+node index.js find "keyword"
+```
+
+### 🗑️ Remove a Note by ID
+
+```bash
+node index.js remove 1
+```
+
+### 🌐 Launch Web Interface
+
+```bash
+node index.js web
+```
+
+### 🧹 Delete All Notes
+
+```bash
+node index.js clean
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
